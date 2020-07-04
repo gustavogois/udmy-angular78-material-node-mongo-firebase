@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MyFirstComponent } from './myFirst.component';
-import { MySecondComponent } from './my-second/my-second.component'
+import { MySecondComponent } from './my-second/my-second.component';
+import { MyThirdComponent } from './my-second/my-third/my-third.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     MyFirstComponent,
-    MySecondComponent
+    MySecondComponent,
+    MyThirdComponent
   ],
   imports: [
     BrowserModule
