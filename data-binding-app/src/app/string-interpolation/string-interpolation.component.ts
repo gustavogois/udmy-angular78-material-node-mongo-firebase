@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StringInterpolationComponent implements OnInit {
 
+  firstname = "John";
+
+  person = {
+    firstname: "Gustavo",
+    lastname: "Gois"
+  }
+
   constructor() { }
 
   ngOnInit(): void {
