@@ -12,6 +12,7 @@ export class EventBindingComponent implements OnInit {
   spinnerMode = "determinate";
   selectDisabled = false;
   selectedOption = 1;
+  inputName = "John";
 
   constructor() { }
 
@@ -39,6 +40,10 @@ export class EventBindingComponent implements OnInit {
   selectionChange(event) {
     console.log(event);
     this.selectedOption = event.value;
+  }
+
+  inputEvent(event) {
+    console.log(event);
   }
 
 }

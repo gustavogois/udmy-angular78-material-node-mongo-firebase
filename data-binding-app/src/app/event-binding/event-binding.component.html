@@ -38,3 +38,17 @@
       </mat-card>
   </p>
 </section>
+
+<mat-divider></mat-divider>
+
+<section>
+  <p>
+    <mat-card>
+      <mat-card-content>
+        <mat-form-field>
+          <input matInput placeholder="first name" (input)="inputName = $event.target.value" [value]="inputName">
+        </mat-form-field>
+      </mat-card-content>
+    </mat-card>
+  </p>
+</section>
