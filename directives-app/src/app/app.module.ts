@@ -23,6 +23,7 @@ import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 import { NgTemplateComponent } from './ng-template/ng-template.component';
+import { NgContainerComponent } from './ng-container/ng-container.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { NgTemplateComponent } from './ng-template/ng-template.component';
     NgForComponent,
     NgForFormComponent,
     NgSwitchComponent,
-    NgTemplateComponent
+    NgTemplateComponent,
+    NgContainerComponent
   ],
   imports: [
     BrowserModule,
