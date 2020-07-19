@@ -22,6 +22,7 @@ import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
+import { NgTemplateComponent } from './ng-template/ng-template.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
     NgIfComponent,
     NgForComponent,
     NgForFormComponent,
-    NgSwitchComponent
+    NgSwitchComponent,
+    NgTemplateComponent
   ],
   imports: [
     BrowserModule,
