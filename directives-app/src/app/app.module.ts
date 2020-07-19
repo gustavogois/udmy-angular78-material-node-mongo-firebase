@@ -9,7 +9,9 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
+import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
 
+import { MatButtonModule } from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatCardModule } from '@angular/material/card';
 import { MatCheckboxModule } from '@angular/material/checkbox';
@@ -25,20 +27,22 @@ import { MatSelectModule } from '@angular/material/select';
     NgStyleComponent,
     NgClassComponent,
     NgIfComponent,
-    NgForComponent
+    NgForComponent,
+    NgForFormComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
-    MatSelectModule,
-    MatRadioModule,
+    MatButtonModule,
+    MatDividerModule,
     MatCardModule,
     MatCheckboxModule,
+    MatIconModule,
     MatInputModule,
     MatListModule,
-    MatIconModule,
-    MatDividerModule
+    MatRadioModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
