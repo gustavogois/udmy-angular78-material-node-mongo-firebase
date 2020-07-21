@@ -1,19 +1,19 @@
 <h3>{{title}}</h3>
 <div class="horizontal_buttons">
   <button mat-raised-button color="primary"
-      (click)="plusOneClick()">
+      (click)="btnClick(1)">
     <mat-icon>exposure_plus_1</mat-icon>
   </button>
   <button mat-raised-button color="primary"
-      (click)="plusTwoClick()">
+      (click)="btnClick(2)">
     <mat-icon>exposure_plus_2</mat-icon>
   </button>
   <button mat-raised-button color="accent"
-      (click)="minusOneClick()">
+      (click)="btnClick(-1)">
     <mat-icon>exposure_minus_1</mat-icon>
   </button>
   <button mat-raised-button color="accent"
-      (click)="minusTwoClick()">
+      (click)="btnClick(-2)">
     <mat-icon>exposure_minus_2</mat-icon>
   </button>
 </div>
