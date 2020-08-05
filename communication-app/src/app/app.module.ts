@@ -16,6 +16,7 @@ import { ChildItemComponent } from './event/child-item/child-item.component';
 import { ClientsComponent } from './clients/clients.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { ItemClientComponent } from './clients/item-client/item-client.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MatInputModule } from '@angular/material/input';
     ClientComponent,
     EventComponent,
     ChildItemComponent,
-    ClientsComponent
+    ClientsComponent,
+    ItemClientComponent
   ],
   imports: [
     BrowserModule,
