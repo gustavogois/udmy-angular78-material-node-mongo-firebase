@@ -9,7 +9,7 @@ export class TimerComponent implements OnInit {
 
   miliseconds: number = 0;
   private interval: any;
-  private running = false;
+  running = false;
 
   constructor() { }
 
